@@ -1,0 +1,23 @@
+<div class="container">
+  <table class=""table table-striped>
+
+ 
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>category</th>
+      <th>research</th>
+      <th>year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let award of awards">
+      <td>{{awards.name}}</td>
+      <td>{{awards.category}}</td>
+      <td>{{awards.research}}</td>
+      <td>{{awards.year}}</td>
+      
+    </tr>
+  </tbody>
+</table>
+</div>
